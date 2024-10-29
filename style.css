@@ -2,8 +2,8 @@
  * You should write your CSS in this file.  Don't forget to add your name and
  * @oregonstate.edu email address below.
  *
- * name:  Tashfia Tabassum
- * email: tabassut@oregonstate.edu 
+ * name: Tashfia Tabassum
+ * email: tabassut@oregonstate.edu
  */
 /* General body and main settings */
 body {
@@ -50,16 +50,16 @@ header {
 
 /* Sidebar Filters styling */
 .filter-container {
-  width: 350px;
-  padding: 20px;
-  background-color: #D3D3D3;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.filter-container h2 {
-  font-weight: 400;
-  margin-bottom: 20px;
+    display: table;
+    width: 300px;
+    height: 350px;
+    margin-left: 5px;
+    margin-right: 10px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    background-color: #D3D3D3;
+    border-radius: 5px;
 }
 
 .filter-input-container {
@@ -83,21 +83,6 @@ header {
 .filter-input-element {
   display: inline-block;
 }
-
-.filter-fieldset {
-  border: none;
-  padding: 0;
-}
-
-.filter-fieldset legend {
-  font-weight: 400;
-}
-
-.filter-fieldset div {
-  margin-bottom: 10px;
-}
-
-
 .action-button {
   padding: 15px 90px;
   background-color: #333;
@@ -106,6 +91,7 @@ header {
   border-radius: 4px;
   cursor: pointer;
   transition: background-color .3s;
+   margin-top: 20px;
 }
 
 .action-button:hover {
